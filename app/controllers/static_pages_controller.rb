@@ -1,3 +1,5 @@
+require 'twitter'
+
 class StaticPagesController < ApplicationController
   def home
   end
@@ -10,4 +12,8 @@ class StaticPagesController < ApplicationController
 
   def contact
   end
+
+  def agtweets
+  end
+
 end
